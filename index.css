@@ -1,0 +1,243 @@
+#header{
+    width:100%;
+    height:150px;
+    background-image:linear-gradient(purple,black);
+    position:fixed;
+    z-index:999;
+}
+#nama{
+    color:black;
+    padding:20px;
+}
+.menu-bar{
+    width:100%;
+    height:60px;
+        background-image:linear-gradient(black,gray)
+}
+.menu{
+    color:white;
+    width:178px;
+    list-style:none;
+    text-align:center;
+}
+#daftar-menu{
+    display:inline-flex;
+}
+.menu:hover{
+    background-color:yellowgreen;
+    color:black;
+    border-radius:25px;
+    cursor:pointer;
+}
+#menu-lagi{
+    display:none;
+    
+}
+#open-artikel:hover #menu-lagi{
+    display:block;
+}
+.tulisan{
+    width:100px;
+    list-style:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-style:italic;
+    width:177px;
+    margin-left:-40;
+}
+.tulisan:hover{
+    background-image:linear-gradient(gray,black);
+    color:white;
+}
+#open-sosmed:hover #menu-lagi{
+    display:block;
+}
+.content{
+    width:100%;
+    height:900px;
+   /* background-color:wheat;*/
+    display:flex;
+}
+.kiri{
+    width:30%;
+    height:900px;
+    /*background-color:greenyellow;*/
+    position:fixed;
+    
+    
+}
+.kanan{
+    width:100%;
+    height:900px;
+    /*background-color:black;*/
+    margin-left:500px;
+    
+}
+.atas{
+    width:80%;
+    height:350px;
+    /*background-color:peru;*/
+    margin-left:140px;
+    display:flex;
+    justify-content:space-around;
+
+}
+.bawah{
+    width:80%;
+    height:500px;
+    /*background-color:aquamarine;*/
+    margin-left:140px;
+    margin-top:40px;
+    justify-content:space-evenly;
+    display:flex;
+}
+.isi{
+    width:10%;
+    height:150px;
+    background-color:red;
+    margin-top:185px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+}
+.isi-1{
+    width:40%;
+    height:400px;
+    background-color:aqua;
+    margin-top:50px;
+}
+.bersama{
+    width:100%;
+    height:150px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+}
+iframe{
+    width:100%;
+    height:400px;
+}
+.aku{
+    width:70%;
+    height:300px;
+    background-color:black;
+    margin:auto;
+    margin-top:240px;
+    
+}
+#foto{
+    width:100%;
+    height:300px;
+}
+.miawaug{
+    font-family: "Noto Sans Hatran", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:justify;
+}
+.kamu{
+    width:100%;
+    height:500px;
+    /*background-color:aqua;*/
+    margin-top:170px;
+}
+h3:hover{
+    cursor:grab;
+    background-color:black;
+    color:gray;
+}
+.artikel-1{
+    width:100%;
+    height:50px;
+    /*background-color:black;*/
+}
+#judul{
+    color:black;
+    text-align:center;
+}
+.foto-timoty{
+    width:50%;
+    margin:auto;
+}
+#timoty{
+    /*margin-left:300px;*/
+}
+.artikel-timoty{
+    width:50%;
+    margin:auto;
+}
+.text{
+    width:100%;
+    /*padding-left:300px;*/
+    font-family: "Noto Sans Hatran", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:justify;
+}
+.artikel-2{
+    width:52%;
+    height:600px;
+    /*background-color:black;*/
+    margin-left:350px;
+}
+.pencarian{
+    width:100%;
+    height:100px;
+    background-image:linear-gradient(red,brown,maroon);
+    
+}
+.foto-0{
+    width:100%;
+    height:500px;
+    /*background-color:aqua;*/
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:50px;
+}
+.foto-1{
+    width:18%;
+    height:200px;
+    background-color:aquamarine;
+}
+.ac{
+    width:100%;
+    height:200px;
+}
+
+h4{
+    padding-left:40px;
+    color:white;
+    cursor:pointer;
+}
+.pencarian-1{
+    width:100%;
+    height:60px;
+    background-color:gray;
+    display:flex;
+}
+.kata-kata{
+    display:flex;
+}
+h5{
+    color:black;
+    cursor:pointer;
+}
+h5:hover{
+    background-color:gray;
+}
+#kata-kata-1{
+    padding-left:40px;
+    padding-top:10px;
+    list-style:none;
+    cursor:pointer;
+}
+#kata-kata-1:hover{
+    color:red;
+}
+.lampiran{
+    width:100%;
+    height:300px;
+    background-color:black;
+}
